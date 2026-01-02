@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f7f7f7; color:#222; }
+.header { background:#111; color:white; padding:24px 20px; display:flex; align-items:center; gap:16px; }
+.header img { height:56px; border-radius:8px; }
+.container { max-width:960px; margin:28px auto; padding:0 20px; background:white; box-shadow:0 2px 8px rgba(0,0,0,0.06); border-radius:8px; overflow:hidden; }
+.hero { padding:36px 24px; text-align:center; }
+.services { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; padding:24px; }
+.card { border:1px solid #eee; padding:16px; border-radius:8px; background:#fff; }
+.footer { background:#111; color:#ddd; padding:18px 20px; text-align:center; }
+a.button { display:inline-block; padding:10px 16px; background:#2b8cff; color:white; border-radius:6px; text-decoration:none; margin-top:8px; }
